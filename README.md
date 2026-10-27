@@ -1,7 +1,7 @@
-# Bank Account Management System Using Java JDBC
+# Bank Account System Using Java JDBC
 
-## About the Project
-This is a simple Java project connected to an Oracle Database using JDBC. It is used to manage bank accounts.
+THE PROJECCT:
+This is a simple Java project connected to an Oracle Database using JDBC, It is used to manage bank accounts.
 
 FEATURES:
 - Create a bank account
@@ -17,11 +17,11 @@ I HAVE USED:
 - SQL
 
 
-the data based i have usedI used a `BANK_ACCOUNT` table to store the account number, customer name, and balance.
+The data based i have usedI used a `BANK_ACCOUNT` table to store the account number, customer name, and balance.
 HOW it works is The Java program connects to Oracle Database using JDBC. Users can choose options from the menu to create accounts, deposit or withdraw money, and check their balance.
 to run:
 1.import packages and lode driver
 2.establish connections
 3.created sql statemeents
 4.executed sql statement
-5close connections
+5.close connections
