@@ -23,7 +23,7 @@ public class BankAccount {
             Statement st = con.createStatement();
 
             st.executeUpdate(
-                    "CREATE TABLE BANK_ACCOUNT (" +
+                    "CREATE TABLE BANK ACCOUNT (" +
                             "ACCOUNT_NO NUMBER PRIMARY KEY, " +
                             "CUSTOMER_NAME VARCHAR2(50), " +
                             "BALANCE NUMBER(12,2))");
@@ -49,7 +49,7 @@ public class BankAccount {
             int choice;
 
             do {
-                System.out.println("\n--- BANK ACCOUNT MENU ---");
+                System.out.println("\n BANK ACCOUNT MENU ");
                 System.out.println("1. Create Account");
                 System.out.println("2. Deposit Money");
                 System.out.println("3. Withdraw Money");
